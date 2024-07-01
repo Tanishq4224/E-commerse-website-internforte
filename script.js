@@ -1,6 +1,6 @@
 const filterButtons = document.querySelectorAll('.filter-buttons button')
 const fiterableCards = document.querySelectorAll('.fiterable-cards .card')
-const productCard = document.querySelectorAll('.card')
+
 
 
 const filterCards = e => {
@@ -22,5 +22,5 @@ const addHref = e => {
 
 
 
-productCard.forEach(card => card.addEventListener('click', addHref))
+
 filterButtons.forEach(button => button.addEventListener("click", filterCards))
